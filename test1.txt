@@ -1,5 +1,11 @@
 Sierra Shaw
 01/31/2017
 This is my first text document for MART 340 - Web Development
+that has now been altered
 
 I added a new line to this file in my text editor!!!!
+
+Adding a new line.
+and another
+
+omg
