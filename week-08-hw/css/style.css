@@ -10,24 +10,30 @@
   padding: 1em;
   font-size: 16 pt;
   font-family: 'JosefinSlab', regular;
-
 }
+
 .narration:first-letter {
     color: #ffb119;
 }
+
 .heading {
   font-family: 'JosefinSlab', Bold;
+}
+
+.colorText {
+  color: rgb(28, 47, 75);
 }
 
 /* the image changes when mouse hovers*/
 .images {
 background-image: url(../images/2.jpg);
 }
+
 .hover-element:hover {
 background-image: url(../images/1.jpg);
 }
 
-font-face {
+@font-face {
     font-family: 'Josefin_Slab';
     src:
         url('../fonts/JosefinSlab-Bold.ttf') format('Bold'),
