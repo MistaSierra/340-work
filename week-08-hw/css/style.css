@@ -1,8 +1,36 @@
-speech {
-  background-color: #d6f0ff;
-  padding: 2em;
+.speech {
+  background-color: #bed0da;
+  padding: 5em;
+  font-size: 12 pt;
+  font-family: 'JosefinSlab', Italic;
 }
-narration {
+
+.narration {
   background-color: #4889af;
   padding: 1em;
+  font-size: 16 pt;
+  font-family: 'JosefinSlab', regular;
+
+}
+.narration:first-letter {
+    color: #ffb119;
+}
+.heading {
+  font-family: 'JosefinSlab', Bold;
+}
+
+/* the image changes when mouse hovers*/
+.images {
+background-image: url(../images/2.jpg);
+}
+.hover-element:hover {
+background-image: url(../images/1.jpg);
+}
+
+font-face {
+    font-family: 'Josefin_Slab';
+    src:
+        url('../fonts/JosefinSlab-Bold.ttf') format('Bold'),
+        url('../fonts/JosefinSlab-Regular.ttf') format('Regular'),
+        url('../fonts/JosefinSlab-Italic.ttf') format('Italic');
 }
