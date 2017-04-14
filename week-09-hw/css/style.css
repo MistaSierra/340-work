@@ -1,1 +1,60 @@
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: rgb(195, 255, 237);
+}
+.menu-container {
+  background-color: rgb(242, 160, 1);
+  margin: 1em;
+  padding: 1 em;
+  text-align: center;
 
+}
+
+.menu-item {
+  display: inline-block;
+  margin:0 0;
+  padding:0.5em;
+  width: 35%;
+  text-align: left;
+  background-color: rgb(172, 255, 188)
+}
+
+.menu-item a {
+  color: rgb(212, 51, 0)
+}
+
+menu-item:hover {
+  background-color: rgb(197, 254, 231);
+}
+
+.dropdown {
+  display: inline-block; margin: auto;
+}
+
+.dropdown-content
+  display: none;
+  position: absolute;
+  border: 1px solid rgb(196, 147, 0);
+  margin: 0;
+  margin-top: .05em;
+  background-color:  rgb(255, 0, 0)
+  z-index: 1;
+}
+dropdown-content a {
+  color: rgb(16, 191, 20)
+}
+
+.dropdown:hover.dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  display: block;
+  margin:0;
+  min-width: :8em;
+  text-align: left;
+}
+
+.dropdown-item:hover, .dropdown:hover a [
+  color: rgb(213, 0, 247)
+  background-color: rgb(185, 251, 251)
+]
