@@ -15,15 +15,16 @@
     width: 100%;
 }
 .block1 {
-    background-color: #b2d4da;
+    background-color: #41676e;
     order: 2;
     width: 60%;
 }
 
 .block2 {
-    background-color: #41676e;
+    background-color: #b2d4da;
     order: 3;
-    width: 40%;
+    width: 38%;
+    padding: .5em
 
 }
 .block3 {
