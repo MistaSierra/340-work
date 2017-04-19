@@ -20,13 +20,13 @@
     width: 60%;
 }
 
-.block3 {
+.block2 {
     background-color: #41676e;
     order: 3;
     width: 40%;
 
 }
-.block4 {
+.block3 {
     background-color: #316169;
     order: 4;
     width: 100%;
@@ -39,7 +39,7 @@
         width: 100%;
     }
 
-    .block3 {
+    .block2 {
         order: 3;
         width: 100%;
     }
@@ -51,7 +51,7 @@
         width: 100%;
     }
 
-    .block3 {
+    .block2 {
         order: 3;
         width: 100%;
     }
