@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    color: #777;
+    font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.Main, .container-2, .container-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.Main {
+    min-height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/11/15/13/paper-2221812_960_720.jpg);
+
+    /* background-image: url("images/1.jpg"); */
+}
+
+.container-2 {
+    min-height: 600px;
+    background-image: url("images/1.jpg");
+}
+
+.container-3 {
+
+    min-height: 600px;
+    background-image: url("images/3.jpg");
+}
+
+.hero {
+    padding: 50px 80px;
+    color: #777;
+    background-color: white;
+    text-align: center;
+    text-align: justify;
+
+}
+
+.caption {
+    /* opacity: 0.65; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: #ddd;
+    background-color: rgb(171, 147, 122);
+    text-align: center;
+    text-align: justify;
+}
+
+.caption span.border {
+    padding: 18px;
+    color: #f7f7f7;
+    background-color: rgba(226, 131, 32, 0.60);
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    color: #111;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .Main, .container-2, .container-3 {
+        background-attachment: scroll;
+    }
+}
