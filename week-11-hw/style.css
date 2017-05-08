@@ -14,7 +14,7 @@ body {
 
 .Main {
     min-height: 100vh;
-    background-image: url(https://cdn.pixabay.com/photo/2017/04/11/15/13/paper-2221812_960_720.jpg);
+    background-image: url("images/paper.jpg");
 
     /* background-image: url("images/1.jpg"); */
 }
